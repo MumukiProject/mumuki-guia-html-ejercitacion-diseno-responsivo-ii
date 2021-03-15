@@ -3,7 +3,10 @@ name: Ejercitacion - Diseño responsivo II
 locale: es
 type: learning
 beta: false
+teacher_info: ''
 language: html
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
 private: false

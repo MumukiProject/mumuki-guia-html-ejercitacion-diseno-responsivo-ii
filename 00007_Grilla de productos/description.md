@@ -1,5 +1,5 @@
-`index.html` debe contener:
-
+> Creá un código HTML que contenga:
+>
 - un título `h1` que diga `Mi tienda`
 - un título `h2` que diga `Productos más comprados`
 - un párrafo `p` con `lorem ipsum`
@@ -8,9 +8,9 @@
   - un título `h3` con el nombre del producto
   - un párrafo `p` con el precio del producto
   - un párrafo `p` con una oración `lorem ipsum`
-  
-- Usar una tipografía distinta a la que viene por default.  
-- Poner a títulos y textos distintos tamaños de letra que los que vienen por default.
+>
+- Usar una tipografía COMPLETAR.  
+- Poner a títulos y textos tamaño COMPLETAR.
 - Para el tamaño de letra, usar unidades relativas y no absolutas (`em`).
 - El título principal y el secundario, el párrafo, y la grilla estar centrados horizontalmente.
 - La grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente).

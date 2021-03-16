@@ -1,9 +1,9 @@
-`index.html` debe contener:
-
+> Creá un código HTML que contenga:
+>
 - un título `h1` que diga `Grilla de imágenes`
 - un párrafo `p` con `lorem ipsum`
 - una grilla de 12 imágenes
-
+>
 - El título, el párrafo, y la grilla deben estar centrados horizontalmente.
 - La grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente).
 - Las imágenes de la grilla deben estar espaciadas entre sí con márgenes.

@@ -1,9 +1,9 @@
 
 
-- `header`, con una navegación y una lista de links.
+- `header`, con una navegación y una lista de links;
 - 4 links (p. ej.: Sobre mí, Servicios, Proyectos y Contacto).
-- el`header` debe tener un color de fondo.
-- los links deben tener los siguientes estilos: tipografía, tamaño de letra y color y no deben tener el subrayado que viene por defecto en los links.
+- el`header` debe tener un color de fondo;
+- los links deben tener los siguientes estilos: tipografía, tamaño de letra y color y no deben tener el subrayado que viene por defecto en los links;
 - el `header` deberá estar arriba de todo de la página, ocupar todo el ancho, y tener un alto fijo (p. ej.: 40px).
 - los links deben estar uno al lado del otro, con un poco de separación y centrados verticalmente con respecto al header.
 - los links deberán estar alineados a la izquierda.

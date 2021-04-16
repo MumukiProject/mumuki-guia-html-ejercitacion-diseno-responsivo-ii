@@ -1,3 +1,4 @@
+Llegó el momento de jugar con los colores :art:, vamos a crear un código HTML que debe tener:
 
 - una etiqueta `h1` con el texto `¡Mirame cambiar de color!`;
 - el `body` debe ocupar todo el alto y el ancho de la pantalla;
@@ -7,6 +8,8 @@
 - `h1` debe tener un tamaño de fuente de 40px;
 - el texto debe estar centrado;
 - utilizá dos breakpoints:
-  - sí pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente;
+  - sí la pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente;
   - sí la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente;
 - en cada breakpoint, cambiar el color de fondo del `body`.
+
+> Creá el código HTML que acabamos de descibir.

@@ -14,4 +14,4 @@ Vamos a crear un blog, pero esta vez utilizando diseño responsivo, para que pue
 - para el tamaño de letra, utilizá unidades relativas y no absolutas (`em`);
 - utilizá un breakpoint que modifique el `font-size` del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en simultáneo.
 
-> Creá el código HTML que acabamos de describir y tené en cuenta las siguientes
+> Creá el código HTML que acabamos de describir.

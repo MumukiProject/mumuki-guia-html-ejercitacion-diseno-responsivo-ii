@@ -20,7 +20,7 @@ it("La tipografía del título es Recursive",() => {
 })
 
 it("La tipografía de los párrafos es Recursive",() => {
-  document.querySelectorAll('p').should.have.style('font-family', 'Recursive')
+  document.querySelector('p').should.have.style('font-family', 'Recursive')
 })
 
 it("Se introdujo un párrafo", () => {
@@ -32,8 +32,8 @@ it("Los párrafos tienen un tamaño de 1.5em",() => {
 })
 
 it("Los títulos tienen un tamaño de 1.5em",() => {
-  document.querySelectorAll('h1').should.have.style('font-size', '1.5em')
-  document.querySelectorAll('h2').should.have.style('font-size', '1.5em')
+  document.querySelector('h1').should.have.style('font-size', '1.5em')
+  document.querySelector('h2').should.have.style('font-size', '1.5em')
 })
 
 /*#tests>*/

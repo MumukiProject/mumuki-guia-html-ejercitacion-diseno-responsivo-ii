@@ -1,14 +1,15 @@
-> Creá un código HTML que contenga:
->
-- un título `h1` que diga `Mi tienda`
-- un título `h2` que diga `Productos más comprados`
-- un párrafo `p` con `lorem ipsum`
+Necesitamos organizar los productos de una tienda :convenience_store: mediante un código HTML que debe contener:
+
+- un título `h1` que diga `Mi tienda`;
+- un título `h2` que diga `Productos más comprados`;
+- un párrafo `p` con `lorem ipsum`;
 - una grilla con 9 cards productos, donde cada card de producto contiene:
-  - una imagen del producto
-  - un título `h3` con el nombre del producto
-  - un párrafo `p` con el precio del producto
-  - un párrafo `p` con una oración `lorem ipsum`
->
+  - una imagen del producto;
+  - un título `h3` con el nombre del producto;
+  - un párrafo `p` con el precio del producto;
+  - un párrafo `p` con una oración `lorem ipsum`;
+
+
 - Usar una tipografía COMPLETAR.  
 - Poner a títulos y textos tamaño COMPLETAR.
 - Para el tamaño de letra, usar unidades relativas y no absolutas (`em`).

@@ -1,11 +1,12 @@
-- Agregar una etiqueta `h1` con el texto `¡Mirame cambiar de color!`.
-- Hacer que el `body` ocupe todo el alto y el ancho de la pantalla.
-- Centrar el `h1` vertical y horizontalmente.
-- Dar al `body` un color de fondo.
-- Dar al `h1` una tipografía usando `Google Fonts` (p. ej. `Montserrat`).
-- Dar al `h1 un tamaño de fuente de 40px.
-- Centrar el texto.
-- Poner dos breakpoints:
-  - Cuando la pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente.
-  - Cuando la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente.
-- En cada breakpoint, cambiar el color de fondo del `body`.
+
+- una etiqueta `h1` con el texto `¡Mirame cambiar de color!`;
+- el `body` debe ocupar todo el alto y el ancho de la pantalla;
+- un `h1` vertical y horizontalmente;
+- el `body` deberá tener el color de fondo `#F5B976`;
+- `h1` debe tener la tipografía de Google Fonts `Montserrat`;
+- `h1` debe tener un tamaño de fuente de 40px;
+- el texto debe estar centrado;
+- utilizá dos breakpoints:
+  - sí pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente;
+  - sí la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente;
+- en cada breakpoint, cambiar el color de fondo del `body`.

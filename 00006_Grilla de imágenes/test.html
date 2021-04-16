@@ -1,4 +1,12 @@
 /*<output#*//*#output>*/
-/*<tests#*/TODO/*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.querySelector("h1").should.exist;
+})
+
+it("Hay un título h1 que dice Grilla de imágenes", () => {
+  document.querySelector("h1").should.have.trimmed.text("Grilla de imágenes");
+})
+
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

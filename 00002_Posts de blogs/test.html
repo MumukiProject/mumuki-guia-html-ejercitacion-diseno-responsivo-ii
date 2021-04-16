@@ -4,15 +4,15 @@
 })
 
 it("Se introdujo un título h2", () => {
-  document.querySelector("h2").length.should.exist;
+  document.querySelector("h2").should.exist;
 })
 
 it("Se introdujeron tres títulos h3", () => {
-  document.querySelector("h2").length.should.exist;
+  document.querySelectorAll("h2").length.should.eq(3);
 })
 
 it("Se introdujeron cuatro párrafos", () => {
-  document.querySelector("p").length.should.eq(4);
+  document.querySelectorAll("p").length.should.eq(4);
 })
 
 it("El título h1 dice Mi blog", () => {

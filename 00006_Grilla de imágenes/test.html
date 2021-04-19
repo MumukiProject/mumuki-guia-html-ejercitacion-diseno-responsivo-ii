@@ -11,9 +11,13 @@ it("Se introdujeron doce imagenes",() => {
   document.querySelectorAll("img").length.should.eq(12);
 })
 
-it("Todos los elementos están centrados", () => {
+it("El párrafo está centrado", () => {
   document.querySelector("p").should.have.style('text-align', 'center')
-})// EVALUAR SI TESTEAMOS CON * O POR SEPARADO
+})
+
+it("El título está centrado", () => {
+  document.querySelector("h1").should.have.style('text-align', 'center')
+})
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

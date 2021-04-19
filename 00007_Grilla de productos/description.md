@@ -17,7 +17,7 @@ Necesitamos organizar los productos de una tienda :convenience_store: mediante u
 - el título principal y el secundario, el párrafo, y la grilla deben estar centrados horizontalmente;
 - la grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente);
 - las cards de productos de la grilla deben estar espaciados entre sí con márgenes;
-- las cards de productos de la grilla inicialmente deben tener una disposición de 3 producots por fila;
+- las cards de productos de la grilla inicialmente deben tener una disposición de 3 productos por fila;
 - utilizá breakpoints para que, a medida que la resolución se vaya achicando, la grilla cambie a 2 productos por fila y finalmente 1 producto por fila;
 - cuando se muestran 3 y 2 productos por fila, la imagen debe estar arriba de la información del producto;
 - cuando se muestra 1 producto por fila, la imagen debe estar a la izquierda de la información del producto;

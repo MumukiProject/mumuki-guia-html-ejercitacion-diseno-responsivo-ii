@@ -7,6 +7,9 @@ it("Hay un título h1 que dice Grilla de imágenes", () => {
   document.querySelector("h1").should.have.trimmed.text("Grilla de imágenes");
 })
 
+it("Se introdujeron doce imagenes",() => {
+  document.querySelectorAll("img").length.should.eq(12);
+})
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

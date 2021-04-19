@@ -3,7 +3,7 @@ Necesitamos organizar los productos de una tienda :convenience_store: mediante u
 - un título `h1` que diga `Mi tienda`;
 - un título `h2` que diga `Productos más comprados`;
 - un párrafo `p` con `lorem ipsum`;
-- una grilla con 9 cards productos, donde cada card de producto contiene:
+- una grilla con 5 cards productos, donde cada card de producto contiene:
   - una imagen del producto;
   - un título `h3` con el nombre del producto;
   - un párrafo `p` con el precio del producto;

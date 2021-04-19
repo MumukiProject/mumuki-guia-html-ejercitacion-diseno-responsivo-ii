@@ -1,4 +1,27 @@
 /*<output#*//*#output>*/
-/*<tests#*/TODO/*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.querySelector("h1").should.exist;
+})
+
+it("Hay un título h1 que dice Mi tienda", () => {
+  document.querySelector("h1").should.have.trimmed.text("Mi tienda");
+})
+
+it("Hay un título h2 que dice Productos más comprados", () => {
+  document.querySelector("h2").should.have.trimmed.text("Productos más comprados");
+})
+
+it("Se introdujeron cinco h3",() => {
+  document.querySelectorAll("h3").length.should.eq(5);
+})
+
+it("Se introdujeron once párrafos",() => {
+  document.querySelectorAll("p").length.should.eq(11);
+})
+
+it("Los párrafos tienen la tipografía Raleway",() => {
+  document.querySelector('p').should.have.style('font-family', 'Raleway')
+})
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

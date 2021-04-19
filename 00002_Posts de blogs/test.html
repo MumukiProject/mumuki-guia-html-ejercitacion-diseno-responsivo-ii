@@ -32,11 +32,17 @@ it("La tipografía de los párrafos es Roboto",() => {
   document.querySelector('p').should.have.style('font-family', 'Roboto')
 })
 
-it("Los párrafos tienen un tamaño de 1.5em",() => {
+it("Los párrafos tienen un tamaño de 1.2em",() => {
   document.querySelector('p').should.have.style('font-size', '1.2em')
 })
 
-//QUEDA TESTEAR EL BREAKPOINT Y QUE ESTÉ CENTRADO HORIZONTALMENTE
+it("zaraza", () => {
+  browser.setWindowWidth(500)
+  document.querySelector('p').should.have.style('font-size', ' 0.9em')
+})
+
+//browser.setWindowWidth(1280) // Note: This is not a real API!!!
+//expect(container.firstChild).toHaveStyle("color: blue")
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true

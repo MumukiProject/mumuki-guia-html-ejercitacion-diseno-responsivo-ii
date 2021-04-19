@@ -11,7 +11,7 @@ it("Hay un título h2 que dice Productos más comprados", () => {
   document.querySelector('h2').should.have.trimmed.text("Productos más comprados");
 })
 
-it("Se introdujeron cinco títulos h3",() => {
+it("Se introdujeron seis títulos h3",() => {
   document.querySelectorAll('h3').length.should.eq(5);
 })
 
@@ -34,8 +34,8 @@ it("Los títulos tienen la tipografía Monserrat",() => {
   document.querySelector('h3').should.have.style('font-family', 'Monserrat')
 })
 
-it("Los párrafos tienen un tamaño de 1.2 em",() => {
-  document.querySelector('p').should.have.style('font-size', '1.2em')
+it("Los párrafos tienen un tamaño de 1em",() => {
+  document.querySelector('p').should.have.style('font-size', '1em')
 })
 
 /*#tests>*/

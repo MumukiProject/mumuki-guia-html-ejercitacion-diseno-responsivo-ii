@@ -37,7 +37,7 @@ it("Los párrafos tienen un tamaño de 1.2em",() => {
 })
 
 it("zaraza", () => {
-  mu-browser.resizeTo(500,500)
+  browser.resizeTo(500,500)
   document.querySelector('p').should.have.style('font-size', ' 0.9em')
 })
 

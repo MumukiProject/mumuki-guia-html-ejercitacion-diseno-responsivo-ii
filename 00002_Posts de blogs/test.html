@@ -36,6 +36,10 @@ it("Los párrafos tienen un tamaño de 1.2em",() => {
   document.querySelector('p').should.have.style('font-size', '1.2em')
 })
 
+it("zaraza", () => {
+  document.querySelector("style").should.match("@media")
+})
+
 /*it("zaraza", () => {
   browser.resizeTo(500,500)
   document.querySelector('p').should.have.style('font-size', ' 0.9em')

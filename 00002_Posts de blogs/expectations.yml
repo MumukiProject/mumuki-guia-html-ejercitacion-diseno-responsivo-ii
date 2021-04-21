@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:@media
-  inspection: DeclaresStyle:font-size
+  binding: 'css:@media_start(max-width: 1000px)@media_end'
+  inspection: 'DeclaresStyle:font-size: 1.0em'

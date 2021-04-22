@@ -8,8 +8,7 @@ Llegó el momento de jugar con los colores :art:, vamos a crear un código HTML 
 - `h1` debe tener un tamaño de fuente de 40px;
 - el texto debe estar centrado;
 - utilizá dos breakpoints:
-  - sí la pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente;
-  - sí la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente;
-- en cada breakpoint, cambiar el color de fondo del `body`.
+  - sí la pantalla tiene menos de 900px y más de 600px, el `h1` debería tener 32px de tamaño de fuente y un color `#9DD0EB`;
+  - sí la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente y un color `#A9EB84`;
 
 > Creá el código HTML que acabamos de descibir.

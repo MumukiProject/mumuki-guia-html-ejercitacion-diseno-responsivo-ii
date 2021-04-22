@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:,imagenes
+  binding: css:.imagenes
   inspection: DeclaresStyle:margin:12px

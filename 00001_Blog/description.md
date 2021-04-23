@@ -1,9 +1,9 @@
 Vamos a crear un blog, pero esta vez utilizando diseño responsivo, para que pueda adaptarse a cualquier dispositivo :computer: :iphone:, el código HTML debe tener: 
 
-- un título `h1` con el nombre del artículo (por ejemplo Ada Lovelace);
+- un título `h1` con el nombre del artículo (por ejemplo _Ada Lovelace_);
 - un párrafo `p` con `lorem ipsum`;
-- 2 secciones con título `h2` (por ejemplo, Biografía y Obra);
-- debajo de cada título de sección, 2 subsecciones con título `h3` (por ejemplo, debajo de Biografía, incluir Infancia y Adultez);
+- 2 secciones con título `h2` (por ejemplo, _Biografía y Obra_);
+- debajo de cada título de sección, 2 subsecciones con título `h3` (por ejemplo, debajo de _Biografía_, incluir _Infancia y Adultez_);
 - debajo de cada título de subsección, 1 párrafo `p` con `lorem ipsum`.
 
 :warning: Consideraciones:

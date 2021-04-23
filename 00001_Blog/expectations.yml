@@ -12,3 +12,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresTag:h3
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start (max-width: 1000px)@media_end:*'
+  inspection: DeclaresStyle:font-size:1em

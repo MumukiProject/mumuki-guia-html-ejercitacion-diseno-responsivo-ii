@@ -3,3 +3,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_startscreen (max-width: 1000px)@media_end:*'
   inspection: DeclaresStyle:font-size:1em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_startscreen (max-width: 1000px)@media_end:h1'
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_startscreen (max-width: 1000px)@media_end:h1'
+  inspection: DeclaresStyle:color:red

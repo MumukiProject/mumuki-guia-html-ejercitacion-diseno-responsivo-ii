@@ -2,10 +2,11 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: upload
+editor: free_form
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
-manual_evaluation: false
+manual_evaluation: true
 choices: []
 name: Header

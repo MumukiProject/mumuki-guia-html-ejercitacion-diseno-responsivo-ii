@@ -11,4 +11,4 @@ Queremos crear un código HTML y aplicarle estilos:star_struck:, el mismo debe c
 - utilizá [este](https://fontawesome.com/icons/bars?style=solid) ícono de Font Awesome;
 - el ícono tiene que estar alineado a la derecha en el `header`.
 
-> creá el código HTML que acabamos de describir y cargá el repositorio con los correspondientes archivos.
+> Creá el código HTML que acabamos de describir y cargá el repositorio con los correspondientes archivos.

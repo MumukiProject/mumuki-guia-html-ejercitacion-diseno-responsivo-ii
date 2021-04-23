@@ -1,8 +1,8 @@
 ---
 locale: es
 tags: []
-layout: input_right
-editor: multiple_files
+layout: input_bottom
+editor: upload
 type: problem
 extra_visible: false
 teacher_info: ''

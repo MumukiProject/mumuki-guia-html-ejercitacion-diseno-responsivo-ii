@@ -18,14 +18,8 @@ Necesitamos organizar los productos de una tienda :convenience_store: mediante u
 - la grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente);
 - las cards de productos de la grilla deben estar espaciados entre sí con márgenes de `12px`;
 - las cards de productos de la grilla inicialmente deben tener una disposición de 3 productos por fila;
+- utilizá dos breakpoints para que :
+  - sí la pantalla tiene menos de 1000px y más de 750px la grilla cambie a dos productos por fila y el texto tenga tener un `font-size` de `0.9em`;
+  - sí la pantalla tiene menos de `750px` la grilla cambie a un producto por fila, la imagen esté a la izquierda de la información del producto y el texto tenga un `font-size` de `0.8em`; el título principal, el secundario y el párrafo, deben alinearse horizontalmente a la izquierda;
 
-utilizá dos breakpoints:
-
-- sí la pantalla tiene menos de 1000px y más de 750px:
-  - la grilla deberá cambiar a dos productos por fila;
-  - el  texto deberá tener un `font-size` de `0.9em`;
-- sí la pantalla tiene menos de `750px`:
-  - la grilla deberá cambiar a un producto por fila;
-  - la imagen deberá estar a la izquierda de la información del producto;
-  -  el título principal, el secundario y el párrafo, deben alinearse horizontalmente a la izquierda;
-  - el `font-size` deberá tener un `font-size` de `0.8em`.
+> Creá el código HTML que acabamos de describir.

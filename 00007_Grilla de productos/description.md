@@ -7,7 +7,7 @@ Necesitamos organizar los productos de una tienda :convenience_store: mediante u
   - una imagen del producto;
   - un título `h3` con el nombre del producto;
   - un párrafo `p` con el precio del producto;
-  - un párrafo `p` con una oración `lorem ipsum`;
+  - un párrafo `p` con una oración `lorem ipsum`.
 
 :warning: Consideraciones:
 

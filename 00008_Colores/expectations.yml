@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_start(max-width: 1000px)@media_end:h1'
-  inspection: DeclaresStyle:font-size:24px
+  inspection: 'DeclaresStyle:font-size: 24px'

@@ -6,3 +6,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_start(max-width: 600px)@media_end:h1'
   inspection: DeclaresStyle:font-size:24px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 900px)@media_end:body'
+  inspection: DeclaresStyle:background-color:#9DD0EB
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 600px)@media_end:body'
+  inspection: DeclaresStyle:background-color:#A9EB84

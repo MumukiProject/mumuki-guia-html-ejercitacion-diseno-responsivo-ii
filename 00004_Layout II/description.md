@@ -1,1 +1,1 @@
-> Replicá el [siguiente ejemplo](https://4ntmp.csb.app/) con breakpoints incluidos y cargá el repositorio con los correspondientes archivos
+> Replicá el [siguiente ejemplo](https://4ntmp.csb.app/) con breakpoints incluidos y cargá el repositorio con los correspondientes archivos.

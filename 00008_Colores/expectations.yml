@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_start(max-width: 900px)@media_end:h1'
   inspection: DeclaresStyle:font-size:32px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 600px)@media_end:h1'
+  inspection: DeclaresStyle:font-size:24px

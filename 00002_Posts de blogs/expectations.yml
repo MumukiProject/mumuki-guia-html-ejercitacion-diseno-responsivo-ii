@@ -4,8 +4,8 @@ expectations:
   binding: 'css:@media_startscreen (max-width: 1000px)@media_end:*'
   inspection: DeclaresStyle:font-size:1em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: 'css:@media_startscreen (max-width: 1000px)@media_end:h1'
+  binding: 'css:@media_startscreen (max-width: 992px) and (min-width: 180px)@media_end:body'
   inspection: DeclaresStyle
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: 'css:@media_startscreen (max-width: 1000px)@media_end:h1'
+  binding: 'css:@media_startscreen (max-width: 992px) and (min-width: 180px)@media_end:body'
   inspection: DeclaresStyle:color:red

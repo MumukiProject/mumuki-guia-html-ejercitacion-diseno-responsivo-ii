@@ -2,7 +2,7 @@ Queremos crear una grilla de imágenes :frame_photo: mediante un código HTML qu
 
 - un título `h1` que diga `Grilla de imágenes`;
 - un párrafo `p` con `lorem ipsum`;
-- una grilla de 12 imágenes;
+- una grilla de 12 imágenes.
 
 :warning: Consideraciones:
 

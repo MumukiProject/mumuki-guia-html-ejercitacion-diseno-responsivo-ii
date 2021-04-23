@@ -5,7 +5,8 @@ expectations:
   inspection: DeclaresStyle:margin:12px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_start(max-width: 900px)@media_end:.imagenes'
-  inspection: 'DeclaresStyle:grid-template-columns: 1fr 1fr 1fr'
+  inspection: 'DeclaresStyle:grid-template-columns:grid-template-columns: 1fr 1fr
+    1fr'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: 'css:@media_start(max-width: 850px)@media_end:.imagenes'
   inspection: 'DeclaresStyle:grid-template-columns: 1fr 1fr'

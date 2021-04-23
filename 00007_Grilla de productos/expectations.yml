@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 1000px)@media_end:*'
+  inspection: 'DeclaresStyle:font-size: 0.9em'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 750px)@media_end:*'
+  inspection: 'DeclaresStyle:font-size: 0.8em'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 1000px)@media_end:h1'
+  inspection: 'DeclaresStyle:text-align: center'

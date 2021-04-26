@@ -9,7 +9,7 @@ Vamos a crear un blog, pero esta vez utilizando diseño responsivo, para que pue
 :warning: Consideraciones:
 
 - Utilizá la tipografía de Google Fonts `Recursive`;
-- el texto debe estar dentro de un contenedor que actúe como columna, debe tener un ancho máximo y estar centrado horizontalmente;
+- el texto debe estar dentro de un contenedor que tenga la clase `container`, que actúe como columna, tenga un ancho máximo de `1200px` y esté centrado horizontalmente;
 - los títulos y textos deberán tener tamaño `1.5em`;
 - para el tamaño de letra, utilizá unidades relativas y no absolutas (`em`);
 - utilizá un breakpoint que modifique el body, de modo tal que, al cambiar el tamaño de la pantalla a menos de `1000px` también se modifique el `font-size` a `1em`.

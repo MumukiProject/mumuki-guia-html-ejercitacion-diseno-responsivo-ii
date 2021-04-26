@@ -12,7 +12,7 @@ Queremos crear una grilla de imágenes :frame_photo: mediante un código HTML qu
 - las imágenes de la grilla inicialmente deben tener una disposición de 4 imágenes por fila;
 - utilizá breakpoints de modo tal que:
   - si el `max-width: 900px` la grilla tenga una disposición de 3 imágenes por fila;
-  - si el `max-width: 850` la grilla tenga una disposición de 2 imágenes por fila;
-  - si el `max-width:800` la grilla tenga una disposición de 1 imagen por fila.
+  - si el `max-width: 700` la grilla tenga una disposición de 2 imágenes por fila;
+  - si el `max-width:500` la grilla tenga una disposición de 1 imagen por fila.
 
 > Creá el código HTML que acabamos de describir.

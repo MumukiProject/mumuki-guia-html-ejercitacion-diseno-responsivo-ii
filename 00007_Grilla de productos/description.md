@@ -15,7 +15,7 @@ Necesitamos organizar los productos de una tienda :convenience_store: mediante u
 - los títulos y textos deberán tener un tamaño `1em`;
 - para el tamaño de letra, utilizá unidades relativas y no absolutas (`em`);
 - el título principal y el secundario, el párrafo, y la grilla deben estar centrados horizontalmente;
-- la grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente);
+- la grilla debe tener la clase `grilla` y un ancho máximo de `1000px`;
 - las cards de productos de la grilla deben estar espaciados entre sí con márgenes de `12px`;
 - las cards de productos de la grilla inicialmente deben tener una disposición de 3 productos por fila;
 - utilizá dos breakpoints para que :

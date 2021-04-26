@@ -12,12 +12,15 @@ it("Se introdujeron doce imagenes",() => {
 })
 
 it("El párrafo está centrado", () => {
-  document.querySelector("p").should.have.style('text-align', 'center')
+  document.querySelector("p").should.have.style('text-align', 'center');
 })
 
 it("El título está centrado", () => {
-  document.querySelector("h1").should.have.style('text-align', 'center')
+  document.querySelector("h1").should.have.style('text-align', 'center');
 })
-/*#tests>*/
+
+it("Las imágenes tienen un margen de 12px", () => {
+  document.querySelector(".imagenes").should.have.style('margin', '12px');
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

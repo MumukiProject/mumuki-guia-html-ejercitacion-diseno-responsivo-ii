@@ -7,7 +7,7 @@ Queremos crear una grilla de imágenes :frame_photo: mediante un código HTML qu
 :warning: Consideraciones:
 
 - el título, el párrafo, y la grilla deben estar centrados horizontalmente;
-- la grilla debe tener un ancho máximo (no ocupar todo el ancho de la pantalla inicialmente);
+- la grilla inicialmente debe tener un ancho máximo de `1000px`;
 - las imágenes de la grilla deben estar en la clase `imagenes` y deberan estar espaciadas entre sí con márgenes de `12px`;
 - las imágenes de la grilla inicialmente deben tener una disposición de 4 imágenes por fila;
 - utilizá breakpoints de modo tal que:

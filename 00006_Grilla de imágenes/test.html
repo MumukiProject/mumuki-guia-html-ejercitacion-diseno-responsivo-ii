@@ -20,7 +20,11 @@ it("El título está centrado", () => {
 })
 
 it("Las imágenes tienen un margen de 12px", () => {
-  document.querySelector(".imagenes").should.have.style('margin', '12px');
+  document.querySelector(".imagenes").should.have.style('margin', '12px')
+})
+
+it("La grilla inicialmente tiene un ancho máximo de 1000px", () => {
+  document.querySelector(".imagenes").should.have.style('width', '1000px')
 })/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/

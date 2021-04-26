@@ -1,9 +1,0 @@
-/*<index.html#*/<html>
-  <head>
-     <link href="header.css" rel="stylesheet">
-  </head>
-  <body>
-
-  </body>
-</html>/*#index.html>*/
-/*<header.css#*//*#header.css>*/

@@ -4,5 +4,8 @@ expectations:
   binding: 'css:@media_start(max-width: 1000px)@media_end:.grilla'
   inspection: DeclaresStyle:grid-template-columns:repeat(2,1fr)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:@media_start(max-width:750px)@media_end:.grilla
-  inspection: DeclaresStyle:grid-template-columns:1fr
+  binding: 'css:@media_start(max-width: 1000px)@media_end:.grilla'
+  inspection: DeclaresStyle:font-size:0.9em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: 'css:@media_start(max-width: 750px)@media_end:.grilla'
+  inspection: DeclaresStyle:font-size:0.8em

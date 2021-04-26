@@ -10,5 +10,5 @@ expectations:
   binding: 'css:@media_start(max-width: 850px)@media_end:.imagenes'
   inspection: DeclaresStyle:grid-template-columns:repeat(2,1fr)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: 'css:@media_start(max-width: 850px)@media_end:.imagenes'
+  binding: 'css:@media_start(max-width: 800px)@media_end:.imagenes'
   inspection: DeclaresStyle:grid-template-columns:1fr

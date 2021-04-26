@@ -1,1 +1,1 @@
-Para darle formato a la disposición de las columnas de una grilla podemos utilizar `repeat` :face_with_monocle:. Por ejemplo si queremos una grilla con 5 columnas podemos hacer: `grid-template-columns:repeat(5,1fr);`
+Para darle formato a la disposición de las columnas de una grilla podemos utilizar `repeat` :face_with_monocle:. Por ejemplo, si queremos una grilla con 5 columnas podemos hacer: `grid-template-columns:repeat(5,1fr);`

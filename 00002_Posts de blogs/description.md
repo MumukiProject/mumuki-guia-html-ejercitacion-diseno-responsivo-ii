@@ -14,6 +14,6 @@ Ahora trabajaremos con los post del blog :writing_hand:, el mismo debe tener:
 - el texto debe estar dentro de un contenedor que actúe como columna. Deberá tener un ancho máximo y estar centrado horizontalmente;
 - los títulos y textos deben tener un tamaño `1.2em`;
 - para el tamaño de letra, utilizá unidades relativas y no absolutas (`em`);
-- utilizá dos breakpoints de modo tal que, cuando la pantalla tenga `1000px` el `font-size` pase a ser de `1em`, y cuando la pantalla sea de `900px` el `font-size` pase a ser `0.9em`.
+- utilizá dos breakpoints de modo tal que, cuando la pantalla tenga menos de  `1000px` el `font-size` pase a ser de `1em`, y cuando la pantalla tenga menos de `900px` el `font-size` pase a ser `0.9em`.
 
 > Creá el código HTML aplicando los estilos que acabamos de describir.
